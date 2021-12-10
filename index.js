@@ -3732,7 +3732,7 @@ break
 					fs.unlinkSync(mediaa)
 					if (err) return reply('Yah gagal, coba ulangi ^_^')
 					buffer = fs.readFileSync(ran)
-					fakethumb(buffer,'```Nih kak, jgn lupa Support YT : ZEEONE OFC```')
+					fakethumb(buffer,'```Nih kak, jgn lupa pacarin ownernya soalnya jombolo\n kalo cewek yah goblok```')
 					fs.unlinkSync(ran)
 					})
 					break
