@@ -3040,7 +3040,8 @@ case 'bcgif':
 					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
 var buttonss = [
 {buttonId: 'menu', buttonText:{displayText: '❏Menu'}, type: 1},
-{buttonId: 'donasi', buttonText:{displayText: '•Donasi'}, type: 1}
+{buttonId: 'donasi', buttonText:{displayText: '•Donasi'}, type: 1},
+{buttonId: 'gcbot', buttonText:{displayText: 'Group Bot'}, type: 1}
 ]
 
 buttonMessagee = {
@@ -3608,7 +3609,7 @@ break
 							break
 				case 'payment':
 				let paykenekk = await getBuffer('https://telegra.ph/file/3c58eb6b1fda6c22c8668.jpg')
-							sendButLocation(from, allpayment() , `Nih payment nya kak 🪀 ${enter}${enter}${botname}™© | By ${ownername}`,paykenekk,  [{"buttonId": `owner`,"buttonText": {"displayText": "OWNER"},"type": "RESPONSE"}], {})
+							sendButLocation(from, allpayment() , `Nih payment nya kak 🪀 ${enter}${enter}${botname}™© | By ${ownername}`,paykenekk,  [{"buttonId": `owner`,"buttonText": {"displayText": "OWNER"},"type": "RESPONSE"},{"buttonId": 'gcbot',"buttonText": {"displayText": "GROUP BOT"},"type": "RESPONSE"}], {})
 							break
 				case 'belipremium': case 'buypremium': case 'sewabot': case 'goprem':
 							let sewalak = await getBuffer('https://telegra.ph/file/5e96a14f1ebaee0df2e24.jpg')
@@ -3616,7 +3617,7 @@ break
 							break
 				case 'donasi': case 'donate':
 							let donas = await getBuffer('https://telegra.ph/file/2203a91ba6216de345c3d.jpg')
-							sendButLocation(from, donasibot() , `Jangan klik doang, donasi ya 🌝 ${enter}${enter}${botname}™© | By ${ownername}`,donas,  [{"buttonId": `menu`,"buttonText": {"displayText": "•MENU"},"type": "RESPONSE"},{"buttonId": `qr_dana1`,"buttonText": {"displayText": "QR DANA"},"type": "RESPONSE"}], {})
+							sendButLocation(from, donasibot() , `Jangan klik doang, donasi ya 🌝 ${enter}${enter}${botname}™© | By ${ownername}`,donas,  [{"buttonId": `menu`,"buttonText": {"displayText": "•MENU"},"type": "RESPONSE"},{"buttonId": `qr_dana1`,"buttonText": {"displayText": "QR DANA"},"type": "RESPONSE"},{"buttonId": 'gcbot',"buttonText": {"displayText": "GROUP BOT"},"type": "RESPONSE"}], {})
 							break
 				case 'gcbot': case 'grupbot': case 'groupbot':
 							let gcbot = await getBuffer('https://telegra.ph/file/09d4f9b77a0745f35bdfa.jpg')
